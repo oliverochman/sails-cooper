@@ -1,0 +1,42 @@
+{
+  "name": "cooper-api",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a Sails application",
+  "keywords": [],
+  "dependencies": {
+    "sails": "^1.0.1",
+    "grunt": "1.0.1",
+    "sails-hook-grunt": "^3.0.2",
+    "sails-hook-orm": "^2.0.0-16",
+    "sails-hook-sockets": "^1.4.0",
+    "@sailshq/connect-redis": "^3.2.1",
+    "@sailshq/socket.io-redis": "^5.2.0",
+    "@sailshq/lodash": "^3.10.3",
+    "async": "2.0.1"
+  },
+  "devDependencies": {
+    "@sailshq/eslint": "^4.19.3",
+    "chai": "^4.1.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.1.0",
+    "supertest": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha test",
+    "lint": "eslint . --max-warnings=0 --report-unused-disable-directives && echo '✔  Your .js files look good.'",
+    "custom-tests": "echo \"(No other custom tests yet.)\" && echo",
+    "debug": "node debug app.js"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/craftacademyone/cooper-api.git"
+  },
+  "author": "craftacademyone",
+  "license": "",
+  "engines": {
+    "node": ">=9.5"
+  }
+}
