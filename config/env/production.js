@@ -47,6 +47,13 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
     default: {
+      database: 'cooperAPI',
+      host: 'localhost',
+      user: 'root',
+      password: '',
+      port: 5432,
+      poolSize: 10,
+      ssl: false
       // adapter: 'sails-mysql',
       // url: 'mysql://user:password@host:port/database',
       //--------------------------------------------------------------------------
