@@ -13,6 +13,7 @@
     "bluebird": "^3.5.1",
     "grunt": "1.0.1",
     "jsonwebtoken": "^8.2.1",
+    "lodash": "^4.17.5",
     "sails": "^1.0.1",
     "sails-hook-grunt": "^3.0.2",
     "sails-hook-orm": "^2.0.0-16",
@@ -31,7 +32,7 @@
     "test": "mocha test",
     "lint": "eslint . --max-warnings=0 --report-unused-disable-directives && echo '✔  Your .js files look good.'",
     "custom-tests": "echo \"(No other custom tests yet.)\" && echo",
-    "debug": "node debug app.js"
+    "debug": "node --inspect-brk app.js"
   },
   "main": "app.js",
   "repository": {
